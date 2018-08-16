@@ -1,0 +1,4 @@
+up: add $t1, $t2, $t3
+lw $t1, -2($t1)
+beq $t2, $t2, up
+addi $t3, $t2, 5

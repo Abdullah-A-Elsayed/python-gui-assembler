@@ -1,0 +1,6 @@
+label: add $t1 $t2 $t3
+beq $t1 $t2 label
+j exit
+add $t1 $t2 $t3
+exit: add $t1 $t2 $t3
+add $t1 $t2 $t3
